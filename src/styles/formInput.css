@@ -1,0 +1,54 @@
+.signIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signIn form {
+    background-color: yellowgreen;
+    padding: 0px 60px;
+    border-radius: 10px;
+}
+
+.signIn button {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+.formInput input {
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+.formInput span {
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+.formInput input:invalid[focused="true"] {
+    border: 1px solid red;
+}
+
+.formInput input:invalid[focused="true"]~span {
+    display: block;
+}

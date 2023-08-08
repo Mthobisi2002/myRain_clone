@@ -1,0 +1,911 @@
+.Myrain {
+    width: 100%;
+    height: auto;
+    min-width: 275px;
+    background-color: #fff;
+    overflow-x: hidden;
+    z-index: 1;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+}
+
+.myrain_container {
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    margin-top: 10rem;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+    border-bottom-width: 0.1px;
+}
+
+.myrain {
+    width: 1000px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.myrain img {
+    width: 220px;
+    height: 220px;
+    float: left;
+    margin: auto;
+    padding-right: 3rem;
+}
+
+.myrain .container {
+    float: left;
+}
+
+.myrain h1 {
+    font-size: 2rem;
+    color: #0077c8;
+    margin-left: 2.5rem;
+    position: relative;
+    top: 15px;
+}
+
+.myrain p {
+    font-size: 1.10rem;
+    color: grey;
+    line-height: 30px;
+    margin-left: 2.5rem;
+    position: relative;
+    top: 20px;
+}
+
+.myrain button {
+    width: 140px;
+    height: 35px;
+    border-radius: 25px;
+    border-color: #0077c8;
+    border-width: 0.1px;
+    background-color: #fff;
+    color: #0077c8;
+    font-size: 1rem;
+    margin-left: 2.5rem;
+    position: relative;
+    top: -25px;
+    cursor: pointer;
+
+}
+
+.info_container {
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    background-color: lightblue;
+
+}
+
+.myrain_info {
+    width: 1000px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+
+
+}
+
+.img_first {
+    width: 350px;
+    height: 350px;
+}
+
+.img_sec {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.myrain_info span {
+    height: 100px;
+    margin: auto;
+    width: 43.7%;
+}
+
+.myrain_info h1 {
+    font-size: 1.25rem;
+    color: #0077c8;
+}
+
+.myrain_info p {
+    font-size: 1rem;
+    color: grey;
+}
+
+/*second info*/
+.info_container_two {
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+
+}
+
+.myrain_info_two {
+    width: 1000px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+
+
+}
+
+.img_first_two {
+    width: 319px;
+    height: 319px;
+    padding-left: 1rem;
+}
+
+.img_sec_two {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: block;
+    position: relative;
+    left: 13px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.myrain_info_two span {
+    height: 100px;
+    margin: auto;
+}
+
+.myrain_info_two h1 {
+    font-size: 1.25rem;
+    color: #0077c8;
+}
+
+.myrain_info_two p {
+    font-size: 1rem;
+    color: grey;
+}
+
+/*three info*/
+.info_container_three {
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+
+}
+
+.myrain_info_three {
+    width: 1000px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+
+
+}
+
+.img_first_three {
+    width: 352px;
+    height: 352px;
+}
+
+.img_sec_three {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.myrain_info_three span {
+    width: 43.7%;
+    height: 100px;
+    margin: auto;
+
+
+
+}
+
+.myrain_info_three h1 {
+    font-size: 1.25rem;
+    color: #0077c8;
+}
+
+.myrain_info_three p {
+    font-size: 1rem;
+    color: grey;
+}
+
+/*four info*/
+.info_container_four {
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+
+}
+
+.myrain_info_four {
+    width: 1000px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+
+
+}
+
+.img_first_four {
+    width: 319px;
+    height: 319px;
+    padding-left: 1rem;
+}
+
+.img_sec_four {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: block;
+    position: relative;
+    left: 13px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.myrain_info_four span {
+    width: 43.7%;
+    height: 100px;
+    margin: auto;
+
+
+
+}
+
+.myrain_info_four h1 {
+    font-size: 1.25rem;
+    color: #0077c8;
+}
+
+.myrain_info_four p {
+    font-size: 1rem;
+    color: grey;
+}
+
+.faq {
+    width: 100%;
+    height: auto;
+    justify-content: left;
+    align-items: left;
+    display: flex;
+}
+
+.faq img {
+    margin-left: 7rem;
+}
+
+.faq span {
+    color: #0077c8;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.accordions {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.accordion {
+    width: 350px;
+    padding-right: 6rem;
+}
+
+.accordion_two {
+    width: 350px;
+    padding-left: 6rem;
+}
+
+.item {
+    background-color: transparent;
+    border-bottom: 0.1px solid #d3d3d3;
+    padding: 10px 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all .4s;
+}
+
+.content.show {
+    min-height: auto;
+    max-height: 3000px;
+    background-color: #fff;
+    transition: all .6s ease;
+}
+
+.title h1 {
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: #0077c8;
+
+}
+
+.title span {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.content h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0077c8;
+}
+
+.content h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0077c8;
+    margin-top: -4rem;
+}
+
+.content h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0077c8;
+    margin-top: 0rem;
+}
+
+.content h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0077c8;
+    margin-top: 0rem;
+}
+
+.content p {
+    margin-top: -0.5rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 20px;
+    color: grey;
+}
+
+.content h6 {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 20px;
+    color: grey;
+}
+
+.content ul {
+    list-style: none;
+    margin-top: 0px;
+}
+
+.content ul li {
+    margin: 10px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 20px;
+    color: grey;
+}
+
+.content ul li::before {
+    content: "\2022";
+    color: #0077c8;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.helpline {
+    width: 100%;
+    min-height: 240px;
+    background-color: rgb(248, 248, 248);
+    margin-top: 4rem;
+}
+
+.helpline h1 {
+    font-size: 1.25rem;
+    font-weight: 100;
+    color: grey;
+    text-align: center;
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    top: 70px;
+}
+
+.helpline span {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.helpline span img {
+    width: 55px;
+}
+
+.helpline span h2 {
+    font-size: 2rem;
+    font-weight: 100;
+    color: #0077c8;
+    padding-left: 1rem;
+
+}
+
+.download {
+    background: #fff;
+    width: 85%;
+    margin: auto;
+    min-height: 100px;
+    border-bottom: 0.1px solid lightgrey;
+}
+
+.download h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #0077c8;
+    text-align: left;
+}
+
+.download p {
+    font-size: 1rem;
+    font-weight: 100;
+    color: grey;
+    text-align: left;
+}
+
+.download span {
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.apple_img {
+    width: 163px;
+    margin-left: 7px;
+    border-color: transparent;
+}
+
+.started {
+    background-color: #fff;
+    width: 100%;
+    min-height: 200px;
+}
+
+.started h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0077c8;
+    text-align: center;
+}
+
+.started span {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.started span button {
+    width: 140px;
+    height: 35px;
+    border-radius: 25px;
+    border-color: #0077c8;
+    border-width: 0.1px;
+    background-color: #fff;
+    color: #0077c8;
+    font-size: 1rem;
+    margin: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1040px) {
+
+    .info_container {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        min-height: 400px;
+    }
+
+    .myrain_info {
+        flex-direction: column;
+        min-height: 400px;
+    }
+
+    .img_first {
+        width: 271px;
+        margin: auto;
+        display: block;
+        padding-left: 0rem;
+        position: relative;
+        top: 30px;
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+
+
+    }
+
+    .img_sec {
+        padding-right: 0rem;
+        padding-left: 0rem;
+        position: relative;
+        top: 60px;
+    }
+
+    .myrain_info span {
+        margin: 0;
+        width: 100%;
+        position: relative;
+        top: 80px;
+    }
+
+    .myrain_info h1 {
+        text-align: center;
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+    }
+
+    .myrain_info p {
+        text-align: center;
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+    }
+
+    .info_container_two {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        min-height: 400px;
+    }
+
+    .myrain_info_two {
+        flex-direction: column;
+        min-height: 400px;
+    }
+
+    .img_first_two {
+        width: 240px;
+        margin: auto;
+        display: block;
+        padding-left: 0rem;
+        position: relative;
+        top: 30px;
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+
+
+    }
+
+    .img_sec_two {
+        padding-right: 0rem;
+        padding-left: 0rem;
+        left: 0px;
+        top: 60px;
+    }
+
+    .myrain_info_two span {
+        margin: 0;
+        position: relative;
+        top: 80px;
+    }
+
+    .myrain_info_two h1 {
+        text-align: center;
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+    }
+
+    .myrain_info_two p {
+        text-align: center;
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+    }
+
+    .info_container_three {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        min-height: 400px;
+    }
+
+    .myrain_info_three {
+        flex-direction: column;
+        min-height: 400px;
+    }
+
+    .img_first_three {
+        width: 273px;
+        margin: auto;
+        display: block;
+        padding-left: 0rem;
+        position: relative;
+        top: 30px;
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+
+
+    }
+
+    .img_sec_three {
+        padding-right: 0rem;
+        padding-left: 0rem;
+        position: relative;
+        top: 60px;
+    }
+
+    .myrain_info_three span {
+        margin: 0;
+        width: 100%;
+        position: relative;
+        top: 80px;
+    }
+
+    .myrain_info_three h1 {
+        text-align: center;
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+    }
+
+    .myrain_info_three p {
+        text-align: center;
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+    }
+
+    .info_container_four {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        min-height: 400px;
+    }
+
+    .myrain_info_four {
+        flex-direction: column;
+        min-height: 400px;
+    }
+
+    .img_first_four {
+        width: 240px;
+        margin: auto;
+        display: block;
+        padding-left: 0rem;
+        position: relative;
+        top: 30px;
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+
+
+    }
+
+    .img_sec_four {
+        padding-right: 0rem;
+        padding-left: 0rem;
+        left: 0px;
+        top: 60px;
+    }
+
+    .myrain_info_four span {
+        margin: 0;
+        width: 100%;
+        position: relative;
+        top: 80px;
+    }
+
+    .myrain_info_four h1 {
+        text-align: center;
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+    }
+
+    .myrain_info_four p {
+        text-align: center;
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+    }
+
+    .faq img {
+        margin-left: 1rem;
+    }
+
+    .faq span {
+        font-size: 1.5rem;
+        margin-top: 2.5rem;
+    }
+
+    /*.accordion:first-child .item {
+        float: none;
+        clear: both;
+        left: 0%;
+    }
+
+    .accordion:last-child .item {
+        float: none;
+        clear: both;
+        right: 0%;
+    }*/
+    .title h1 {
+        font-size: 1rem;
+        text-align: left;
+
+
+    }
+
+    .title span {
+        font-size: 1.5rem;
+        font-weight: 100;
+        padding-left: 1rem;
+    }
+
+    .accordion {
+        width: 500px;
+        padding-right: 0rem;
+    }
+
+    .accordion_two {
+        width: 500px;
+        padding-left: 0rem;
+    }
+
+    .accordions {
+        flex-direction: column;
+    }
+
+    .download {
+        width: 100%;
+    }
+
+    .download span,
+    .download p,
+    .download h1 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .myrain_container {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .myrain {
+        flex-direction: column;
+    }
+
+    .myrain img {
+        width: 200px;
+        height: 200px;
+        float: none;
+        clear: both;
+        margin: auto;
+        display: block;
+        padding-right: 0rem;
+    }
+
+    .myrain .container {
+        float: none;
+    }
+
+    .myrain h1 {
+        font-size: 2rem;
+        margin-left: 0rem;
+        top: 10px;
+    }
+
+    .myrain p {
+        font-size: 1rem;
+        margin-left: 0rem;
+        top: 5px;
+    }
+
+    .myrain button {
+        top: -45px;
+        margin-left: 0rem;
+
+    }
+
+
+    .accordion {
+        width: 100vw;
+        min-width: 270px;
+    }
+
+    .accordion_two {
+        width: 100vw;
+        min-width: 270px;
+    }
+
+    .download span {
+        flex-direction: column;
+
+    }
+
+    .gallery,
+    .apple_img {
+        margin-left: 0rem;
+    }
+
+    .apple_img {
+        width: 152px;
+    }
+
+}

@@ -1,0 +1,214 @@
+.sign_in {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    overflow-x: hidden;
+    z-index: 1;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+    min-width: 270px;
+}
+
+.sign_in h1 {
+    font-size: 3.3rem;
+    color: #0077c8;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 125px;
+    position: relative;
+    top: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap');
+
+.loginform form {
+    width: 370px;
+    min-height: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.loginform form #one {
+    /*background-color: yellow;*/
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+
+}
+
+.loginform form #two {
+    /*background-color: green;*/
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.loginform form #two #eye-l {
+    width: 0px;
+}
+
+.loginform form #two #eye-l #i-b {
+    background: transparent;
+    margin-left: -45px;
+}
+
+#eye {
+    color: grey;
+}
+
+.loginform form #one input {
+    width: 318px;
+    height: 52px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 100;
+    transition: box-shadow 0.2s ease-in;
+
+}
+
+.loginform form #two input {
+    width: 310px;
+    height: 52px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 100;
+    transition: box-shadow 0.2s ease-in;
+
+
+
+
+}
+
+.loginform input:focus::-webkit-input-placeholder {
+    position: relative;
+    top: -20px;
+    opacity: 1;
+}
+
+#btn-f {
+    /*background-color: red;*/
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+
+.loginform #btn-f button {
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    border-radius: 35px;
+    width: 320px;
+    height: 45px;
+    background-color: lightgrey;
+    border: 0px;
+    cursor: progress;
+}
+
+.loginform #btn-f button:hover {
+    color: #000;
+}
+
+#button {
+    padding-bottom: 1.5rem;
+}
+
+.loginform a {
+    /*background-color: aqua;*/
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #0077c8;
+}
+
+.loginform a h2 {
+    color: #0077c8;
+    font-weight: 100;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.loginform form #one error {
+    font-size: 0.9rem;
+    color: red;
+    /*background-color: green;*/
+    width: 100%;
+    text-align: left;
+    padding-top: 3px;
+}
+
+.loginform form error {
+    font-size: 0.9rem;
+    color: red;
+    /*background-color: green;*/
+    width: 320px;
+    text-align: left;
+    padding-top: 3px;
+
+}
+
+
+@media only screen and (max-width: 371px) {
+
+    .sign_in h1 {
+        font-size: 2.5rem;
+        padding-right: 0rem;
+        padding: 0;
+
+    }
+
+    .loginform form {
+        width: 90%;
+    }
+
+    .loginform form #one input {
+        width: 248px;
+    }
+
+    .loginform form #two input {
+        width: 240px;
+    }
+
+    .loginform #btn-f button {
+        width: 248px;
+    }
+
+    .loginform form error {
+        width: 248px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .loginform form {
+        width: 90%;
+    }
+
+    .loginform form #one input {
+        width: 100%;
+    }
+
+    .loginform form #two input {
+        width: 100%;
+    }
+
+    .loginform form error {
+        width: 180px;
+    }
+
+    .loginform #btn-f button {
+        width: 190px;
+    }
+}
