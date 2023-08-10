@@ -1,0 +1,565 @@
+.FourGmobile {
+    width: 100%;
+    height: auto;
+    min-width: 275px;
+    background-color: white;
+    overflow-x: hidden;
+    z-index: 1;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+    padding-bottom: 100px;
+}
+
+.fourgmobile {
+    width: 100%;
+    height: 190px;
+    margin-top: 5.5rem;
+}
+
+/*stoooooooooooooooooooop*/
+.howtodo {
+    min-height: 500px;
+    max-width: 1280px;
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+.phonenumber h1 {
+    font-size: 1.5rem;
+    color: #0077c8;
+    position: relative;
+    left: 150px;
+}
+
+.phonenumber ul {
+    position: relative;
+    left: 130px;
+    margin-top: 5px;
+}
+
+ul li {
+    line-height: 30px;
+    font-size: 1rem;
+    color: grey;
+
+}
+
+span {
+    color: #0077c8;
+}
+
+.balance h1 {
+    font-size: 1.5rem;
+    color: #0077c8;
+    position: relative;
+    left: 150px;
+    margin-top: -65px;
+}
+
+.balance ul {
+    position: relative;
+    left: 130px;
+    margin-top: 0px;
+
+}
+
+.aboutfourg h1 {
+    font-size: 1.5rem;
+    color: #0077c8;
+    position: relative;
+    left: 150px;
+    margin-top: -65px;
+}
+
+.aboutfourg ul {
+    position: relative;
+    left: 130px;
+    margin-top: 0px;
+}
+
+.volteone h1 {
+    font-size: 1.5rem;
+    color: #0077c8;
+    position: relative;
+    left: 150px;
+    margin-top: -65px;
+}
+
+.volteone ul {
+    position: relative;
+    left: 130px;
+    margin-top: 0px;
+}
+
+.voltetwo h1 {
+    font-size: 1.5rem;
+    color: #0077c8;
+    position: relative;
+    left: 150px;
+    margin-top: -65px;
+}
+
+.voltetwo ul {
+    position: relative;
+    left: 130px;
+    margin-top: 0px;
+}
+
+.rainone {
+    width: 60px;
+}
+
+.osy_container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    height: auto;
+    margin-top: -3rem;
+}
+
+.huawei {
+    width: 30%;
+    min-height: 90px;
+    position: relative;
+    margin: 10px;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+.huawei span {
+    font-size: 3rem;
+    color: darkred;
+    padding-left: 20px;
+    top: -10px;
+    position: relative;
+}
+
+.huawei h1 {
+    font-size: 1rem;
+    color: #0077c8;
+    font-weight: 800;
+    position: relative;
+    top: -70px;
+    padding-left: 80px;
+}
+
+.huawei div {
+    font-size: 1rem;
+    color: grey;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    position: relative;
+    top: -50px;
+
+}
+
+.huawei div span {
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 15px;
+    top: 2px;
+    width: 0px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: #0077c8;
+    color: #fff;
+    padding-right: 20px;
+}
+
+.android {
+    width: 30%;
+    min-height: 90px;
+    position: relative;
+    margin: 10px;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+.android span {
+    font-size: 3rem;
+    color: lightgreen;
+    padding-left: 20px;
+    top: -10px;
+    position: relative;
+}
+
+.android h1 {
+    font-size: 1rem;
+    color: #0077c8;
+    font-weight: 800;
+    position: relative;
+    top: -70px;
+    padding-left: 80px;
+}
+
+.android div {
+    font-size: 1rem;
+    color: grey;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    position: relative;
+    top: -50px;
+
+}
+
+.android div span {
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 15px;
+    top: 2px;
+    width: 0px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: #0077c8;
+    color: #fff;
+    padding-right: 20px;
+}
+
+.apple {
+    width: 30%;
+    min-height: 90px;
+    max-height: 278px;
+    margin: 10px;
+    position: relative;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+.apple span {
+    font-size: 3rem;
+    color: #000;
+    padding-left: 20px;
+    top: -10px;
+    position: relative;
+}
+
+.apple h1 {
+    font-size: 1rem;
+    color: #0077c8;
+    font-weight: 800;
+    position: relative;
+    top: -70px;
+    padding-left: 80px;
+}
+
+.apple div {
+    font-size: 1rem;
+    color: grey;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    position: relative;
+    top: -50px;
+
+}
+
+.apple div span {
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 15px;
+    top: 2px;
+    width: 0px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: #0077c8;
+    color: #fff;
+    padding-right: 20px;
+}
+
+.howtodo-six {
+    height: auto;
+    max-width: 1280px;
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+.voltethree h1 {
+    font-size: 1.5rem;
+    color: #0077c8;
+    position: relative;
+    left: 150px;
+}
+
+.voltethree ul {
+    position: relative;
+    list-style-type: none;
+    left: 110px;
+    margin-top: -5px;
+}
+
+.bottom-container {
+    height: auto;
+    margin-top: -2.5rem;
+    overflow-y: hidden;
+    background-color: yellowgreen;
+}
+
+.bottom {
+    width: 100%;
+    min-height: 400px;
+    max-height: 400px;
+    position: relative;
+    background-color: #e1ebee;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.bottom h1 {
+    font-size: 1.5rem;
+    margin-top: 3.5rem;
+    color: #0077c8;
+    font-weight: 600;
+    padding-left: 350px;
+}
+
+.bottom h2 {
+    font-size: 1rem;
+    margin-top: -0.25rem;
+    font-weight: 100;
+    color: #0077c8;
+    padding-left: 350px;
+}
+
+.bottom p {
+    font-size: 1rem;
+    color: #0077c8;
+    padding-left: 350px;
+    max-width: 63%;
+    line-height: 25px;
+}
+
+.bottom img {
+    position: relative;
+    left: 350px;
+    top: -25px;
+}
+
+#store img {
+    position: relative;
+    left: -240px;
+    top: -285px;
+}
+
+#store {
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    position: relative;
+    margin-left: 350px;
+}
+
+.google {
+    max-width: 150px;
+    max-height: 50px;
+    cursor: pointer;
+
+}
+
+.gallery {
+    max-width: 150px;
+    max-height: 50px;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.raintalk {
+    width: 200px;
+}
+
+.bottom span p {
+    font-size: 1rem;
+    font-weight: 800;
+    position: relative;
+    right: 755px;
+    top: -90px;
+    max-width: 13%;
+}
+
+@media only screen and (max-width: 1300px) {
+    .fourgmobile {
+        width: 1421px;
+        position: relative;
+        right: 130px;
+    }
+
+    .phonenumber h1 {
+        left: 0px;
+    }
+
+    .phonenumber ul {
+        left: -20px;
+    }
+
+    .balance h1 {
+        left: 0px;
+    }
+
+    .balance ul {
+        left: -20px;
+    }
+
+    .aboutfourg h1 {
+        left: 0px;
+    }
+
+    .aboutfourg ul {
+        left: -20px;
+    }
+
+    .volteone h1 {
+        left: 0px;
+    }
+
+    .volteone ul {
+        left: -20px;
+    }
+
+    .voltetwo h1 {
+        left: 0px;
+    }
+
+    .voltetwo ul {
+        left: -20px;
+    }
+
+    .voltethree h1 {
+        left: 0px;
+    }
+
+    .voltethree ul {
+        left: -40px;
+    }
+
+    .osy_container {
+        padding-left: 0rem;
+    }
+
+    #store img {
+        left: -315px;
+    }
+
+    .bottom h1 {
+        padding-left: 275px;
+    }
+
+    .bottom h2 {
+        padding-left: 275px;
+    }
+
+    .bottom p {
+        padding-left: 275px;
+    }
+
+    .bottom img {
+        left: 275px;
+    }
+
+
+
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .bottom {
+        min-height: 120px;
+        max-height: none;
+    }
+
+    .bottom h1 {
+        padding-left: 20px;
+    }
+
+    .bottom h2 {
+        padding-left: 20px;
+
+    }
+
+    .bottom p {
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: none;
+    }
+
+    .bottom img {
+        top: 95px;
+        left: 15px;
+    }
+
+    #store img {
+        top: -100px;
+        left: -330px;
+    }
+
+    .raintalk {
+        width: 100px;
+    }
+
+    .bottom span p {
+        right: 330px;
+        top: -95px;
+        max-width: none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .osy_container {
+        justify-content: none;
+        align-items: none;
+        padding-right: 0rem;
+        display: block;
+
+    }
+
+    .huawei {
+        margin: auto;
+        display: block;
+        width: 95%;
+    }
+
+    .android {
+        margin: auto;
+        display: block;
+        width: 95%;
+        margin-top: 1rem;
+    }
+
+    .apple {
+        margin: auto;
+        display: block;
+        width: 95%;
+        margin-top: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 307px) {
+    #store img {
+        top: -210px;
+    }
+
+    .bottom span p {
+        top: -210px;
+    }
+
+    .gallery {
+        margin-left: 0rem;
+    }
+
+}

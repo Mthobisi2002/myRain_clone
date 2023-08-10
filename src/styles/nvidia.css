@@ -1,0 +1,410 @@
+.nvidia_container {
+    width: 100%;
+    height: auto;
+    min-width: 275px;
+    background-color: white;
+    overflow-x: hidden;
+    z-index: 1;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+    padding-bottom: 100px;
+    padding-top: 200px;
+}
+
+.nvidia .header {
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    height: fit-content;
+    padding-left: 100px;
+    /*justify-content: center;
+    align-items: center;*/
+    display: flex;
+    /*flex-direction: row;*/
+}
+
+.nvidia .header .main_nvidia {
+    width: 1000px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+
+}
+
+.nvidia .header .main_nvidia #nv_img {
+    width: 350px;
+    padding-left: 25px;
+
+}
+
+.nvidia .header .main_nvidia #rl_img {
+    width: 150px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+
+
+}
+
+.nvidia .header #nvr_img {
+    position: relative;
+    left: 15%;
+}
+
+.nvidia .sec-main {
+    /*background-color: yellow;*/
+    width: 63%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding-top: 20px;
+}
+
+.nvidia .sec-main h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #0077c8;
+}
+
+.nvidia .sec-main h2 {
+    font-size: 1rem;
+    color: grey;
+}
+
+.nvidia .sec-main h3 {
+    font-size: 1rem;
+    font-weight: 100;
+    color: grey
+}
+
+.nvidia .sec-main p {
+    font-size: 1rem;
+    color: grey;
+}
+
+.nvidia .sec-main h4 {
+    font-size: 1rem;
+    font-weight: 100;
+    color: grey;
+}
+
+.nvidia .bottom_nvidia {
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.nvidia .bottom_nvidia #nvd_img {
+    height: 400px;
+    width: 30vw;
+    padding-right: 30px;
+}
+
+.nvidia .bottom_nvidia #nvidia_sign {
+    background-color: transparent;
+    margin-left: 130px;
+
+}
+
+.nvidia .bottom_nvidia h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #0077c8;
+}
+
+.nvidia .bottom_nvidia p {
+    font-size: 1.25rem;
+    color: grey;
+    max-width: 40%;
+}
+
+.nvidia .bottom_nvidia #nvidia_sign form {
+    width: auto;
+    /*  background-color: orange;*/
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nvidia .bottom_nvidia #nvidia_sign form input:focus::-webkit-input-placeholder {
+    position: relative;
+    top: -20px;
+    opacity: 1;
+}
+
+.nvidia .bottom_nvidia #nvidia_sign form #one {
+    /*background-color: yellow;*/
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.nvidia .bottom_nvidia #nvidia_sign form #one span {
+    /*background-color: blueviolet;*/
+    width: 35%;
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.nvidia .bottom_nvidia #nvidia_sign form #one span:last-child {
+    /* background-color: aquamarine;*/
+    padding-left: 30px;
+}
+
+.nvidia .bottom_nvidia #nvidia_sign form #one Input {
+    width: 100%;
+    height: 52px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 100;
+    transition: box-shadow 0.2s ease-in;
+}
+
+.nvidia .bottom_nvidia #nvidia_sign form .two {
+    /*background-color: yellow;*/
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nvidia .bottom_nvidia #nvidia_sign form .two span {
+    /* background-color: aquamarine;*/
+    width: 35%;
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+
+}
+
+.nvidia .bottom_nvidia #nvidia_sign form .two span:last-child {
+    /*background-color: blueviolet;*/
+    padding-left: 30px;
+}
+
+.nvidia .bottom_nvidia #nvidia_sign form .two Input {
+    width: 100%;
+    height: 52px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 100;
+    transition: box-shadow 0.2s ease-in;
+}
+
+.nvidia .bottom_nvidia #nvidia_sign form .two input:-webkit-autofill,
+.nvidia .bottom_nvidia #nvidia_sign form .two input:-webkit-autofill:hover,
+.nvidia .bottom_nvidia #nvidia_sign form .two input:-webkit-autofill:focus,
+.nvidia .bottom_nvidia #nvidia_sign form #one input:-webkit-autofill,
+.nvidia .bottom_nvidia #nvidia_sign form #one input:-webkit-autofill:hover,
+.nvidia .bottom_nvidia #nvidia_sign form #one input:-webkit-autofill:focus {
+    background-color: transparent;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.nvidia .bottom_nvidia #nvidia_sign form .two #s-l {
+    width: 0px;
+    background: transparent;
+}
+
+.nvidia .bottom_nvidia #nvidia_sign form .two #s-l #s-b {
+    background: transparent;
+    margin-left: -45px;
+
+}
+
+#search {
+    color: #0077c8;
+    background: transparent;
+    width: 100px;
+}
+
+.nvidia .bottom_nvidia #nvidia_sign form error {
+    font-size: 0.9rem;
+    color: red;
+    /*background-color: green;*/
+    width: 100%;
+    text-align: left;
+    padding-top: 3px;
+
+}
+
+.nvidia .bottom_nvidia #nvidia_sign form .two error {
+    font-size: 0.9rem;
+    color: red;
+    /*background-color: green;*/
+    width: 100%;
+    text-align: left;
+    padding-top: 3px;
+
+}
+
+.nvidia .bottom_nvidia #nvidia_sign form .two #btn-i {
+    background-color: transparent;
+    width: auto;
+    justify-content: right;
+    align-items: right;
+    display: flex;
+    padding-top: 50px;
+
+}
+
+.nvidia .bottom_nvidia #nvidia_sign form .two button {
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    border-radius: 35px;
+    width: 180px;
+    height: 35px;
+    background-color: #0077c8;
+    border: 0px;
+    opacity: 1;
+    cursor: not-allowed;
+}
+
+@media only screen and (max-width: 1000px) {
+    .nvidia .bottom_nvidia p {
+        max-width: none;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .nvidia .header {
+        height: 400px;
+        padding-left: 0px;
+    }
+
+    .nvidia .header .main_nvidia {
+        margin: auto;
+        display: flex;
+        width: auto;
+    }
+
+    .nvidia .header #nvr_img {
+        display: none;
+
+    }
+
+    .nvidia .sec-main {
+        width: 90%;
+
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .nvidia .header {
+        height: auto;
+    }
+
+    .nvidia .header .main_nvidia #nv_img {
+        width: 280px;
+
+    }
+
+    .nvidia .header .main_nvidia #rl_img {
+        width: 80px;
+    }
+
+    .nvidia .bottom_nvidia {
+        flex-direction: column;
+    }
+
+    .nvidia .bottom_nvidia h1 {
+        text-align: center;
+    }
+
+    .nvidia .bottom_nvidia p {
+        text-align: center;
+    }
+
+    .nvidia .bottom_nvidia #nvd_img {
+        width: 100%;
+        height: auto;
+        padding-right: 0px;
+    }
+
+    .nvidia .bottom_nvidia #nvidia_sign {
+        margin-left: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .nvidia .bottom_nvidia #nvidia_sign form #one {
+        flex-direction: column;
+    }
+
+    .nvidia .bottom_nvidia #nvidia_sign form .two {
+        flex-direction: column;
+    }
+
+    .nvidia .bottom_nvidia #nvidia_sign form #one span {
+        width: 100%;
+    }
+
+    .nvidia .bottom_nvidia #nvidia_sign form #one span:last-child {
+        padding-left: 0px;
+    }
+
+    .nvidia .bottom_nvidia #nvidia_sign form .two span {
+        width: 100%;
+    }
+
+    .nvidia .bottom_nvidia #nvidia_sign form .two span:last-child {
+        padding-left: 0px;
+        width: 95%;
+    }
+
+    .nvidia .bottom_nvidia #nvidia_sign form .two #btn-i {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .nvidia .header {
+        justify-content: center;
+        align-items: center;
+        padding-left: 100px;
+    }
+
+    .nvidia .header .main_nvidia {
+        flex-direction: column;
+    }
+
+    .nvidia .header .main_nvidia #nv_img {
+        width: 130px;
+        padding-left: 0px;
+
+    }
+
+    .nvidia .header .main_nvidia #rl_img {
+        width: 80px;
+        padding-right: 0px;
+
+
+    }
+
+    .nvidia .header #nvr_img {
+        height: 190px;
+        display: block;
+        left: -10%;
+
+
+    }
+
+
+}
